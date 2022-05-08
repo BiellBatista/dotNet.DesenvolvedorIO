@@ -58,3 +58,4 @@ Modelagem de Domínios Ricos
 		01 - Iniciando o projeto
 		02 - Escrevendo a primeira entidade
 		03 - Validações de entidades
+		04 - Agregando com objetos de valor
