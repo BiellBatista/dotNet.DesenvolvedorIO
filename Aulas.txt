@@ -62,3 +62,4 @@ Modelagem de Domínios Ricos
 		05 - Testando comportamentos
 		06 - Persistindo com repositórios
 		07 - Utilizando serviços de domínio
+		08 - Lançando eventos de domínio
