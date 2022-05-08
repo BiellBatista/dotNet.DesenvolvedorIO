@@ -1,0 +1,58 @@
+Fundamentos de Arquitetura de Software
+	01 - Introdução
+	02 - Perfis de Arquitetos
+	03 - Perfil do Arquiteto de Software
+	04 - OOP
+	05 - SOLID
+	06 - Dependency Injection
+	07 - Clean Code
+	08 - Design Patterns
+	09 - Arquitetura de Software
+	10 - Encerramento
+Modelagem de Domínios Ricos
+	01 - Introdução
+		01 - Apresentação
+		02 - Objetivos do Curso
+	02 - Visão Geral do DDD
+		01 - Assistir Aula GratuitaDDD não é arquitetura em camadas
+		02 - Quando eu devo implementar DDD?
+		03 - Visão global do DDD
+	03 - Linguagem Ubíqua
+		01 - Apresentação
+		02 - Papeis dentro de um projeto
+		03 - Como extrair e definir a linguagem ubíqua
+		04 - Como gerenciar a linguagem ubíqua
+		05 - Dicas essênciais
+	04 - Modelagem Estratégica
+		01 - Context Map
+		02 - Bounded Context
+		03 - Definindo contextos delimitados
+		04 - Modelo de Negócio vs Modelo de Domínio
+		05 - Integridade do Modelo
+		06 - Tipos de relacionamento entre contextos
+		07 - Teste os seus conhecimentos
+		08 - Teste os seus conhecimentos
+		09 - Teste os seus conhecimentos
+	05 - Estilos e Padrões Arquiteturais
+		01 - A evolução dos estilos arquiteturais
+		02 - Definindo um estilo arquitetural
+		03 - Transaction Script Pattern
+		04 - Table Module Pattern
+		05 - Domain Model Pattern
+		06 - Arquitetura Cebola
+		07 - Arquitetura Hexagonal
+		08 - Camadas sugeridas para atender o Domain Model
+		09 - Camada de apresentação
+		10 - Camada de aplicação
+		11 - Camada de Domínio
+		12 - Camada de Infraestrutura
+	06 - Modelagem Tática
+		01 - Domain Module
+		02 - Objetos de Valor
+		03 - Entidades
+		04 - Agregações
+		05 - Serviços de Domínio
+		06 - Repositórios
+		07 - Eventos de Domínio
+	07 - Mão na massa - Modelagem Tática
+		01 - Iniciando o projeto
