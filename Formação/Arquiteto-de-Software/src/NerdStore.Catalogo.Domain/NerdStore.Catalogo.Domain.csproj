@@ -4,7 +4,7 @@
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>NerdStore.Catalogo.Domain</RootNamespace>
 		<TargetFramework>net6.0</TargetFramework>
-  </PropertyGroup>
+	</PropertyGroup>
 	
 	<ItemGroup>
 		<ProjectReference Include="..\NerdStore.Core\NerdStore.Core.csproj" />

@@ -2,7 +2,7 @@
 
 namespace NerdStore.Catalogo.Domain;
 
-public sealed class Produto : Entity, IAggregateRoot
+public class Produto : Entity, IAggregateRoot
 {
     public Guid CategoriaId { get; private set; }
 
