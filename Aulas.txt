@@ -61,3 +61,4 @@ Modelagem de Domínios Ricos
 		04 - Agregando com objetos de valor
 		05 - Testando comportamentos
 		06 - Persistindo com repositórios
+		07 - Utilizando serviços de domínio
