@@ -56,3 +56,4 @@ Modelagem de Domínios Ricos
 		07 - Eventos de Domínio
 	07 - Mão na massa - Modelagem Tática
 		01 - Iniciando o projeto
+		02 - Escrevendo a primeira entidade

@@ -1,9 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>NerdStore.Catalogo.Domain</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
+	
+	<ItemGroup>
+		<ProjectReference Include="..\NerdStore.Core\NerdStore.Core.csproj" />
+	</ItemGroup>
 </Project>
