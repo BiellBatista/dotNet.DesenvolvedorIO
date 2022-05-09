@@ -63,3 +63,4 @@ Modelagem de Domínios Ricos
 		06 - Persistindo com repositórios
 		07 - Utilizando serviços de domínio
 		08 - Lançando eventos de domínio
+		09 - Opções de camada de application
