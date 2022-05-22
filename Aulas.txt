@@ -65,3 +65,4 @@ Modelagem de Domínios Ricos
 		08 - Lançando eventos de domínio
 		09 - Opções de camada de application
 		10 - Implementando a camada de application
+		11 - Conectando a camada de apresentação
