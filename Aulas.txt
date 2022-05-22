@@ -66,3 +66,4 @@ Modelagem de Domínios Ricos
 		09 - Opções de camada de application
 		10 - Implementando a camada de application
 		11 - Conectando a camada de apresentação
+		12 - Desenvolvendo a apresentação - Validando o funcionamento
