@@ -1,6 +1,6 @@
 ﻿using NerdStore.Core.Messages;
 
-namespace NerdStore.Core;
+namespace NerdStore.Core.Communication;
 
 public interface IMediatRHandler
 {

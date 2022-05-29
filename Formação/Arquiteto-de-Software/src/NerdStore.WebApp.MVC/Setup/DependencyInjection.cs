@@ -4,7 +4,8 @@ using NerdStore.Catalogo.Data;
 using NerdStore.Catalogo.Data.Repository;
 using NerdStore.Catalogo.Domain;
 using NerdStore.Catalogo.Domain.Events;
-using NerdStore.Core;
+using NerdStore.Core.Communication;
+using NerdStore.Vendas.Application.Commands;
 
 namespace NerdStore.WebApp.MVC.Setup;
 
@@ -22,5 +23,8 @@ public static class DependencyInjection
         services.AddScoped<CatalogoContext>();
 
         services.AddScoped<INotificationHandler<ProdutoAbaixoEstoqueEvent>, ProdutoEventHandler>();
+
+        // Vendas
+        services.AddScoped<IRequestHandler<AdicionarItemPedidoCommand, bool>, PedidoCommandHandler>();
     }
 }

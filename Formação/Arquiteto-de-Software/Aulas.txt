@@ -76,3 +76,4 @@ Modelagem de Domínios Ricos
 	09 - Mão na Massa - CQRS
 		01 - Setup do BC de Vendas
 		02 - Objetos de Domínio
+		03 - Command e Command Handler
