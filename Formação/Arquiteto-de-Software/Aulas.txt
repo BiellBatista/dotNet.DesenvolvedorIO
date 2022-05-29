@@ -1,482 +1,77 @@
-Curso C# Parte 1: Primeiros Passos (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - História e ecossistema da linguagem
-	02 - Nosso primeiro programa e o Visual Studio
-	03 - Variáveis numéricas
-	04 - Variáveis de texto
-	05 - Controle de fluxo com IF
-	06 - Controle de fluxo com laços de repetição
-Curso C# Parte 2: Introdução à Orientação a Objetos (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Nossa primeira classe
-	02 - Tipos
-	03 - Comportamentos de classes
-	04 - Namespace e composição e null
-	05 - Propriedades
-	06 - Construtores e membros estáticos
-Curso C# Parte 3 - Entendendo Herança e Interface (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Conhecendo o problema do cliente
-	02 - Herança
-	03 - Construtores e protected
-	04 - Mais herança e herança múltipla
-	05 - Interfaces
-Curso C# Parte 4 - Entendendo exceções (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Primeiros passos com exceções
-	02 - Tratamento de exceções
-	03 - ArgumentException ParamName e nameof
-	04 - Criando exceções ricas
-	05 - StackTrace e InnerException
-	06 - Finally e using
-Curso C# Parte 5 - Bibliotecas DLLs, documentação e usando o NuGet (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Projeto de biblioteca
-	02 - Modificadores de acesso em bibliotecas
-	03 - Referencia de DLL
-	04 - Documentando
-	05 - NuGet
-Curso C# Parte 6 - Strings, expressões regulares e a classe Object (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Mais sobre a String
-	02 - Métodos e propriedades
-	03 - Mais métodos de manipulação
-	04 - Expressões regulares
-	05 - Classe Object
-Curso C# Parte 7 - Array e tipos genéricos (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Conhecendo Array
-	02 - Criando nossa Lista
-	03 - Criando o método Remover
-	04 - Indexadores e argumentos params
-	05 - Começando com genéricos
-Curso C# Parte 8 - List<T>, lambda, linq (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - ListT e métodos de extensão
-	02 - Método de extensão genérico
-	03 - Usando VAR e método Sort
-	04 - IComparable e IComparer
-	05 - OrderBy e expressões Lambda
-	06 - Linq e operador Where
-Curso C# Parte 9 - Entrada e saída (I/O) com streams (Curso feito em 01-Desenvolvedor-CSharp)
-	01 - Lendo arquivos de texto
-	02 - Mais FileStream e leitor StreamReader
-	03 - Fazendo parse e StreamWriter
-	04 - O Flush e arquivos binarios
-	05 - Streams da Console
-Entity Framework Core: Banco de dados de forma eficiente (Curso feito em 05-Desenvolvedor-Net-Entity-Framework)
-	01 - Introdução ao Entity Framework Core
-	02 - Manipulando objetos
-	03 - Como o Entity monta o SQL?
-	04 - Sincronizando o banco de dados com o modelo de classes
-	05 - Relacionamentos Um para Muitos no Entity
-	06 - Relacionamentos Muitos para Muitos no Entity
-	07 - Relacionamentos Um para Um no Entity
-	08 - Recuperando objetos relacionados
-Asp.NET Core: Uma webapp usando o padrão MVC
-	01 - Transformando a aplicação em um servidor web
-		01 - Visão Geral do Curso
-		02 - O que vou aprender? (A)
-		03 - Ambiente e aplicação inicial
-		04 - Preparando o ambiente
-		05 - Nossa aplicação na Web
-		06 - Uma resposta padrão
-		07 - A importância do contexto (B)
-		08 - Delegados permitidos (C)
-		09 - Segue o fluxo! (B)
-		10 - O que aprendemos
-		11 - Para saber mais: configurando ambientes diferentes
-		12 - Consolidando os conhecimentos
-		13 - Projeto da aula atual
-	02 - Atendendo requisições diferentes
-		01 - A propriedade Request
-		02 - Alterando código de retorno
-		03 - Melhorando a lógica de tratamento de requisições
-		04 - Route 66 (B)
-		05 - VIP: Very Important Properties (B)
-		06 - Respondendo uma requisição (B)
-		07 - Para saber mais: HttpRequest
-		08 - O que aprendemos
-		09 - Consolidando os conhecimentos
-		10 - Projeto da aula atual
-	03 - Usando o serviço de roteamento do AspNet Core
-		01 - Incluindo um livro para ler
-		02 - O que está faltando? (B)
-		03 - Rotas com template
-		04 - Ajuda dos universitários (D)
-		05 - Produtos de uma categoria (B)
-		06 - Exibindo os detalhes de um livro
-		07 - O que aprendemos
-		08 - Consolidando os conhecimentos
-		09 - Projeto da aula atual
-	04 - Melhorando a experiência do usuário com HTML
-		01 - Um formulário para entrada de dados
-		02 - Processando o formulário
-		03 - Recuperando informações do formulário (A)
-		04 - Isolando o HTML em seu próprio arquivo
-		05 - Mistura problemática (A / C / D)
-		06 - Métodos de envio da requisição (B)
-		07 - Sobre os métodos GET e POST
-		08 - Gerando HTML dinamicamente
-		09 - O que aprendemos
-		10 - Consolidando os conhecimentos
-		11 - Projeto da aula atual
-	05 - Organizando a aplicação
-		01 - A classe Startup e suas responsabilidades
-		02 - Responsabilidades de Startup (D / E)
-		03 - Isolando as responsabilidades em classes distintas
-		04 - O padrão MVC
-		05 - Conceituando (C)
-		06 - Correspondência MVC (A)
-		07 - O que aprendemos
-		08 - Consolidando os conhecimentos
-		09 - Projeto da aula atual
-	06 - Introduzindo o AspNet Core MVC
-		01 - Roteamento padrão
-		02 - Usando o AspNet Core MVC
-		03 - Pré-requisitos do Asp.Net Core MVC (A / B / C)
-		04 - O estágio de Model Binding no request pipeline
-		05 - Mudança à frente! (A / C)
-		06 - Usando o Model Binding (C)
-		07 - Para saber mais: A criação da classe de roteamento padrão
-		08 - Consolidando os conhecimentos
-		09 - Projeto da aula atual
-	07 - Renderização de views no AspNet Core MVC
-		01 - O estágio ExecuteResult
-		02 - Navegador não renderiza (B)
-		03 - Resultados de actions (A)
-		04 - Convenções nas views do AspNet Core MVC
-		05 - PreserveCompilationContext
-		06 - Ajude Roberta a entender as convenções (C)
-		07 - O motor de views Razor
-		08 - Consolidando os conhecimentos
-		09 - Conclusão
-		10 - Projeto final
-ASP.NET Core parte 1: Um e-Commerce com MVC e EF Core
-	01 - Criando Uma Aplicação com ASP.NET Core
-		01 - Preparando o ambiente
-		02 - Um curso em 2 partes
-		03 - Introdução
-		04 - Criando a Primeira Aplicação
-		05 - Criando Relatório de Livros
-		06 - Separando Responsabilidades
-		07 - Obtendo Adicionando Serviço
-		08 - Ciclos de Vida de Serviços
-		09 - Quando escolher AddTransient, AddScoped ou AddSingleton (A / C / E)
-		10 - Criando um Projeto
-	02 - Criando o Projeto ASP NET Core MVC
-		01 - Abrindo o Projeto
-		02 - Conhecendo a View
-		03 - Controller e Model
-		04 - O Padrão MVC
-		05 - Os Componentes do MVC (A)
-		06 - O Arquivo Layout cshtml
-		07 - Compartilhando conteúdo entre as páginas (D)
-		08 - A Página Carrossel
-		09 - Criando uma nova página numa aplicação MVC (A / C / D)
-		10 - Modificando a Rota Padrão do MVC
-		11 - Consolidando seu conhecimento
-		12 - O que aprendemos?
-		13 - .NET Core ou .NET Framework? E agora?
-		14 - Contêineres: .NET Core ou .NET Framework?
-		15 - Microsserviços: .NET Core ou .NET Framework?
-		16 - Multiplataforma: .NET Core ou .NET Framework?
-		17 - Projeto da Aula Atual
-		18 - Para saber mais - Bootstrap
-	03 - Banco de Dados
-		01 - Criando o Modelo
-		02 - Conectando o Entity Framework ao Banco de Dados (D)
-		03 - Configurando Banco de Dados
-		04 - Usando o contexto do Entity Framework numa aplicação ASP.NET Core (D)
-		05 - Relacionamentos e Migrações
-		06 - Gerando Banco, Classe Startup, Serviços, Injeção de Dependências
-		07 - Método EnsureCreated X Método Migrate
-		08 - Migrate x EnsureCreated (D)
-		09 - Para saber mais: Como Ler Configurações no Controller?
-		10 - Para saber mais: Diferenças entre EF 6 e EF Core
-		11 - Consolidando seu conhecimento
-		12 - O que aprendemos?
-		13 - Projeto da Aula Atual
-	04 - Exibindo o Catálogo de Produtos
-		01 - DataService, Injeção de dependência
-		02 - O que é injeção de dependência e por que ela é necessária?
-		03 - Lendo Arquivo Json de Produtos
-		04 - Injetando uma classe como dependência de outra (C / D / F / H)
-		05 - Por que parâmetro como interface e não como classe concreta?
-		06 - Gravando Produtos no Banco de dados
-		07 - Inserir Produtos No Banco de Dados (D)
-		08 - ProdutoRepository
-		09 - Injetando Modelo na View Carrossel
-		10 - @model ou @Model?
-		11 - Consolidando seu conhecimento
-		12 - Exibindo uma página de produtos
-		13 - Paginação do Carrossel de Produtos
-		14 - Renderizando a view com o modelo (D)
-		15 - O que aprendemos?
-		16 - Projeto da Aula Atual
-		17 - Para saber mais - Code First, Database First ou Model First? (encurtador.com.br/ehtzM)
-	05 - Trabalhando com Session
-		01 - BaseRepository
-		02 - Links com Tag Helpers
-		03 - Âncora HTML x AnchorTagHelper (D)
-		04 - Passando código de produto na rota
-		05 - Modificando a rota default (D)
-		06 - Configurando session, gravando e lendo PedidoId na sessão
-		07 - Para quê sessão? (D)
-		08 - Consolidando seu conhecimento
-		09 - O que aprendemos?
-		10 - Projeto da Aula Atual
-		11 - Para saber mais - Entity Framework Core
-	06 - Carrinho e Resumo
-		01 - Obtendo ou criando novo pedido
-		02 - Obtendo produtos do banco de dados (D)
-		03 - Salvando item de pedido
-		04 - Gravando id do pedido na sessão (D)
-		05 - Tela de carrinho e método Include
-		06 - Consultando entidades associadas (B)
-		07 - View de Resumo
-		08 - Consolidando seu conhecimento
-		09 - O que aprendemos?
-		10 - Conclusão
-		11 - Projeto da aula atual
-		12 - Este curso continua na Parte 2!
-ASP.NET Core parte 2: Um e-Commerce com MVC e EF Core
-	01 - Implementando a Chamada AJAX
-		01 - Projeto Inicial da Aula Atual
-		02 - Introdução
-		03 - Chamando Função JavaScript a Partir de um evento HTML
-		04 - Usando Filtros jQuery Para Acessar Elementos
-		05 - Navegando Pela Hierarquia de Elementos
-		06 - Obtendo elementos na hierarquia do HTML (D)
-		07 - Criando Método POST no Servidor para Receber Requisição
-		08 - Método no Controller para a Chamada AJAX
-		09 - Ajax com jQuery (D)
-		10 - Monte a Chamada AJAX (D)
-		11 - Consolidando seu conhecimento
-		12 - Projeto Final da Aula Atual
-		13 - Para saber mais - Livro
-		14 - O que aprendemos?
-	02 - Alterando a Quantidade de Itens
-		01 - Chamando Repositório de Itens a Partir do Controller
-		02 - Alterando a Quantidade no Banco de Dados
-		03 - Altere a Quantidade no Banco de Dados (D)
-		04 - Organizando Código JavaScript com Classe
-		05 - Consuma Função de uma Classe JavaScript a Partir de evento HTML (D)
-		06 - Digitando a Nova Quantidade
-		07 - Utilize o Evento Adequado (B)
-		08 - Consolidando seu conhecimento
-		09 - Projeto Final da Aula Atual
-		10 - Para saber mais - ECMAScript 6
-		11 - O que aprendemos?
-	03 - Adicionando e Removendo Itens
-		01 - Criando uma ViewModel
-		02 - Fornecendo os Dados Necessários Para a View (D)
-		03 - Preparando o Objeto de Resposta Para a Chamada AJAX
-		04 - Tratando Resposta da Chamada AJAX (D)
-		05 - Refatorando Repositórios
-		06 - Adicione a propriedade Subtotal em ItemPedido
-		07 - Atualizando o Item na View com JavaScript
-		08 - Atualizando Totais do Carrinho na View com JavaScript
-		09 - Redefina o Valor do Input (D)
-		10 - Consolidando seu conhecimento
-		11 - Projeto Final da Aula Atual
-		12 - Para saber mais - ASP.NET Core MVC
-		13 - O que aprendemos?
-	04 - Validando e Enviando Formulário de Cadastro
-		01 - Montando a View de Cadastro
-		02 - Defina o Binding dos Campos do Formulário (D)
-		03 - Injetando o Cadastro na View e Redirecionando se Necessário
-		04 - Validando Campos do Formulário no Cliente
-		05 - Valide o Campo do Formulário (D)
-		06 - Customizando Validações no Modelo de Cadastro
-		07 - Validando Dados do Formulário no Servidor
-		08 - Retornando uma View Diferente (D)
-		09 - Consolidando seu conhecimento
-		10 - Projeto Final da Aula Atual
-		11 - Para saber mais
-		12 - O que aprendemos?
-	05 - Recebendo e Gravando Dados de Cadastro
-		01 - Gravando Cadastro no Banco de Dados
-		02 - Protegendo uma Action com ValidateAntiForgeryToken
-		03 - Proteja a Action do Controller (D)
-		04 - Protegendo a Action do AJAX Contra Ataques Maliciosos
-		05 - Forneça um Token Anti-Falsificação para a Página (D)
-		06 - Passe o Token Anti-Falsificação na Chamada Ajax (D)
-		07 - Aplicando os Campos do Cadastro do Modelo na View de Resumo
-		08 - Refatorando o Arquivo Carrinho js
-		09 - Consolidando seu conhecimento
-		10 - Projeto Final da Aula Atual
-		11 - Para saber mais - Curso Entity Framework Core
-		12 - O que aprendemos?
-		13 - Conclusão
-ASP.NET Core Parte 3: Identity
-	01 - Instalando ASPNET Core Identity
-		01 - Introdução
-		02 - Código-Fonte do Curso
-		03 - Por Que Identity
-		04 - Propósito do ASP.NET Core Identity (C)
-		05 - Instalação do Ambiente e Melhorias
-		06 - Instalando Entity Framework Core + Identity
-		07 - Pacote obrigatório (C)
-		08 - Criando o Scaffolding de Identity parte 1
-		09 - Criando e Aplicando a Migração do Identity
-		10 - Criando o Scaffolding de Identity parte 2
-		11 - Opções de Scaffolding do Identity (B)
-		12 - Faça o que eu fiz na aula
-		13 - O que aprendemos?
-	02 - Integrando ao Projeto
-		01 - Adicionando Componente Identity ao ASPNET Core
-		02 - Qual o Padrão de Projeto? (B)
-		03 - Integrando a LoginPartial no Front End
-		04 - Qual Elemento Visual? (B)
-		05 - Apresentando as Razor Pages
-		06 - A Página de Registro de Usuário
-		07 - Elementos de uma Razor Page (C)
-		08 - Faça o que eu fiz na aula
-		09 - O que aprendemos?
-	03 - Razor Pages
-		01 - Por Dentro da RazorPage e da PageModel
-		02 - Carregando Listas Iniciais (A)
-		03 - Traduzindo a Página de Nova Conta
-		04 - Implementando a Classe Descritora de Erros
-		05 - Protegendo Actions Contra Acesso Anônimo
-		06 - O Atributo de Autorização (A)
-		07 - Usuário Anônimo Detectado (A)
-		08 - Faça o que eu fiz na aula
-		09 - O que aprendemos?
-	04 - Obtendo Dados do Usuário Logado
-		01 - Fluxo de Autenticação e Autorização
-		02 - Forma de Autenticação (C)
-		03 - Acessando Email de Usuário com a Classe UserManager
-		04 - Customizando Usuário do Identity
-		05 - Customizando o Usuário (B)
-		06 - Obtendo e Salvando Cadastro do Usuário
-		07 - Atualizando Dados na Tabela de Usuários (B)
-		08 - Faça o que eu fiz na aula
-		09 - O que aprendemos?
-	05 - Usando Id do Usuário no Pedido
-		01 - Adicionando Id do Cliente ao Modelo de Pedido
-		02 - Uma Migração, Dois Contextos (A)
-		03 - Obtendo o Id do Cliente
-		04 - Instanciando UserManager (A)
-		05 - Gravando Id do Cliente na Tabela Pedido
-		06 - Obtendo o Id de Usuário (C)
-		07 - Faça o que eu fiz na aula
-		08 - O que aprendemos?
-	06 - Fazendo Login Externo
-		01 - O Processo de Autenticação Externa
-		02 - OAuth 2 (C)
-		03 - Configurando o Provedor Externo Microsoft parte 1
-		04 - Configurando o Provedor Externo Microsoft parte 2
-		05 - Novo Registro
-		06 - Configurando o Provedor Externo Google
-		07 - Adicionando Opção de Logon Externo (C)
-		08 - Código-Fonte do Curso
-		09 - Conclusão
-		10 - Faça o que eu fiz na aula
-		11 - O que aprendemos?
-ASP.NET Core Parte 4: IdentityServer
-	01 - Criando Web API de Relatório
-		01 - Introdução
-		02 - Código-Fonte do Curso
-		03 - Projeto Inicial
-		04 - Criando o Projeto de Serviço
-		05 - Projetos com Web API (A / C)
-		06 - Os Métodos HTTP
-		07 - Adaptando o RelatorioController e Usando Postman
-		08 - Adaptando o RelatorioController e Usando Postman parte 2
-		09 - Erro HTTP 415 (A)
-		10 - Arquitetura Monolítica X Arquitetura de Serviços
-		11 - Adotando uma arquitetura (A)
-		12 - Faça o que eu fiz na aula
-		13 - O que aprendemos?
-	02 - Consumindo Web API de Relatório
-		01 - Consumindo Web API a Partir da Aplicação MVC
-		02 - Consumindo Web API a Partir da Aplicação MVC parte 2
-		03 - HttpClient (A)
-		04 - Configuração e Resposta da Requisição HTTP
-		05 - Configuração e resposta da requisição (C)
-		06 - Trabalhando com HttpClientFactory
-		07 - Como corrigir? (B)
-		08 - Faça o que eu fiz na aula
-		09 - O que aprendemos?
-	03 - Criando e Executando Projeto IdentityServer4
-		01 - Por que Identity Server 4
-		02 - IdentityServer 4 x ASP.NET Core Identity (A)
-		03 - Criando Novo Projeto Identity Server 4
-		04 - Instalando o IdentityServer 4 (A)
-		05 - Habilitando provedores externos (B)
-		06 - Faça o que eu fiz na aula
-		07 - O que aprendemos?
-	04 - Configurando IdentityServer + Cliente MVC
-		01 - Explicando o Identity Server 4
-		02 - IdentityServer4, OAuth e OpenIdConnect
-		03 - OpenId Connect (C / D / F)
-		04 - Configurando IdentityServer + Cliente MVC
-		05 - Configurando IdentityServer + Cliente MVC parte 2
-		06 - Definindo a autoridade (A)
-		07 - Faça o que eu fiz na aula
-		08 - O que aprendemos?
-	05 - Acessando Dados do Usuário
-		01 - Configurando Endereço das Aplicações Web
-		02 - Criando uma Partial View para Login no IdentityServer
-		03 - Obtendo Declarações (Claims) do Usuário Logado
-		04 - Acessando dados de usuário (C)
-		05 - Obtendo Mais Declarações do Usuário a Partir do IdentityServer
-		06 - Obtendo nome de usuário (B)
-		07 - Criando ContaController e Actions de Login e Logout
-		08 - Implementando Âncora e Botão de Login e Logout
-		09 - Adaptando o Cadastro para o Identity Server
-		10 - Faça o que eu fiz na aula
-		11 - O que aprendemos?
-	06 - Configurando IdentityServer4 + WebAPI de Relatório
-		01 - Protegendo Acesso ao Relatório de Vendas
-		02 - Configurando Escopos Permitidos
-		03 - Configurando o Projeto IdentityServer
-		04 - Configurando o Projeto RelatorioWebAPI
-		05 - Obtendo o Token de Acesso
-		06 - Fazendo requisição a um serviço protegido (B)
-		07 - Token de Acesso (A / B / E / F)
-		08 - Chamando a API
-		09 - Conclusão
-		10 - Código-Fonte do Curso
-		11 - Faça o que eu fiz na aula
-		12 - Criando a Página de Registro de Usuário
-		13 - O que aprendemos?
-ASP.NET Core Parte 5: Modularização e Componentização
-	01 - Áreas
-		01 - Introdução
-		02 - Código-Fonte do Curso
-		03 - Área
-		04 - Controller de Área e Roteamento de Área
-		05 - Definindo Áreas (A)
-		06 - Definindo a estrutura de áreas (C)
-		07 - Roteamento de Área
-		08 - Views de Área e Correções de Rotas de Links
-		09 - Faça o que eu fiz na aula
-		10 - O que aprendemos?
-	02 - Partial Views
-		01 - Apresentando Partial Views
-		02 - Outras Partial Views Mais Simples
-		03 - Criando Partial Views Mais Complexas
-		04 - Aplicação de Partial Views (B / C)
-		05 - Usando Partial Views Dentro de Views (C)
-		06 - Faça o que eu fiz na aula
-		07 - O que aprendemos?
-	03 - ViewComponents
-		01 - Apresentando View Components
-		02 - Criando o ViewComponent de Categorias
-		03 - Recapitulando ViewComponents
-		04 - Características de uma View Component (A / E / F / G)
-		05 - Componente com Paginação de Dados (A)
-		06 - Faça o que eu fiz na aula
-		07 - O que aprendemos?
-	04 - Isolando Contextos
-		01 - Criando um Novo Contexto
-		02 - Obtendo Categorias do Arquivo JSON
-		03 - Obtendo Produtos do Arquivo JSON
-		04 - Propagação, Migração e Banco de Dados de Catálogo
-		05 - Propagação de Dados (B)
-		06 - Múltiplas classes de contexto (C)
-		07 - Faça o que eu fiz na aula
-		08 - O que aprendemos?
-	05 - Modelos Delimitados
-		01 - O Que São Modelos Delimitados?
-		02 - Conclusão
-		03 - Contextos Delimitados (B)
-		04 - Modelos de Dados Separados (A)
-		05 - Faça o que eu fiz na aula
-		06 - Código-Fonte do Curso
-		07 - O que aprendemos?
+Fundamentos de Arquitetura de Software
+	01 - Introdução
+	02 - Perfis de Arquitetos
+	03 - Perfil do Arquiteto de Software
+	04 - OOP
+	05 - SOLID
+	06 - Dependency Injection
+	07 - Clean Code
+	08 - Design Patterns
+	09 - Arquitetura de Software
+	10 - Encerramento
+Modelagem de Domínios Ricos
+	01 - Introdução
+		01 - Apresentação
+		02 - Objetivos do Curso
+	02 - Visão Geral do DDD
+		01 - Assistir Aula GratuitaDDD não é arquitetura em camadas
+		02 - Quando eu devo implementar DDD?
+		03 - Visão global do DDD
+	03 - Linguagem Ubíqua
+		01 - Apresentação
+		02 - Papeis dentro de um projeto
+		03 - Como extrair e definir a linguagem ubíqua
+		04 - Como gerenciar a linguagem ubíqua
+		05 - Dicas essênciais
+	04 - Modelagem Estratégica
+		01 - Context Map
+		02 - Bounded Context
+		03 - Definindo contextos delimitados
+		04 - Modelo de Negócio vs Modelo de Domínio
+		05 - Integridade do Modelo
+		06 - Tipos de relacionamento entre contextos
+		07 - Teste os seus conhecimentos
+		08 - Teste os seus conhecimentos
+		09 - Teste os seus conhecimentos
+	05 - Estilos e Padrões Arquiteturais
+		01 - A evolução dos estilos arquiteturais
+		02 - Definindo um estilo arquitetural
+		03 - Transaction Script Pattern
+		04 - Table Module Pattern
+		05 - Domain Model Pattern
+		06 - Arquitetura Cebola
+		07 - Arquitetura Hexagonal
+		08 - Camadas sugeridas para atender o Domain Model
+		09 - Camada de apresentação
+		10 - Camada de aplicação
+		11 - Camada de Domínio
+		12 - Camada de Infraestrutura
+	06 - Modelagem Tática
+		01 - Domain Module
+		02 - Objetos de Valor
+		03 - Entidades
+		04 - Agregações
+		05 - Serviços de Domínio
+		06 - Repositórios
+		07 - Eventos de Domínio
+	07 - Mão na massa - Modelagem Tática
+		01 - Iniciando o projeto
+		02 - Escrevendo a primeira entidade
+		03 - Validações de entidades
+		04 - Agregando com objetos de valor
+		05 - Testando comportamentos
+		06 - Persistindo com repositórios
+		07 - Utilizando serviços de domínio
+		08 - Lançando eventos de domínio
+		09 - Opções de camada de application
+		10 - Implementando a camada de application
+		11 - Conectando a camada de apresentação
+		12 - Desenvolvendo a apresentação - Validando o funcionamento
+	08 - CQRS
+		01 - Apresentação
+		02 - Teorema CAP
+		03 - Como sincronizar as bases?
+		04 - Command Stack - Query Stack
+		05 - Utilização de Sagas
+	09 - Mão na Massa - CQRS
+		01 - Setup do BC de Vendas
