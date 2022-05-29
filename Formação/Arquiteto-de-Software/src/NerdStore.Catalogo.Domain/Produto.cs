@@ -59,15 +59,9 @@ public class Produto : Entity, IAggregateRoot
         QuantidadeEstoque -= quantidade;
     }
 
-    public void ReporEstoque(int quantidade)
-    {
-        QuantidadeEstoque += quantidade;
-    }
+    public void ReporEstoque(int quantidade) => QuantidadeEstoque += quantidade;
 
-    public bool PossuiEstoque(int quantidade)
-    {
-        return QuantidadeEstoque >= quantidade;
-    }
+    public bool PossuiEstoque(int quantidade) => QuantidadeEstoque >= quantidade;
 
     public void Validar()
     {

@@ -2,7 +2,7 @@
 
 namespace NerdStore.Catalogo.Application.ViewModels;
 
-public class CategoriaViewModel
+public sealed class CategoriaViewModel
 {
     [Key]
     public Guid Id { get; set; }

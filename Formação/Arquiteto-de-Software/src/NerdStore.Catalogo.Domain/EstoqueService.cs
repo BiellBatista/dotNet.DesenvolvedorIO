@@ -7,22 +7,19 @@ namespace NerdStore.Catalogo.Domain;
 /// Esta classe (serviço de domínio) é utilizada para realizar os processos de negócio e geralmente ela usa duas ou mais entidades.
 /// Classes de serviço de domínio deve ser aprovado pelo Expert do Domínio
 /// </summary>
-public class EstoqueService : IEstoqueService
+public sealed class EstoqueService : IEstoqueService
 {
-    private readonly IProdutoRepository _produtoRepository;
     private readonly IMediatRHandler _bus;
+    private readonly IProdutoRepository _produtoRepository;
 
-    public EstoqueService(IProdutoRepository produtoRepository, IMediatRHandler bus)
-    {
-        _produtoRepository = produtoRepository;
-        _bus = bus;
-    }
+    public EstoqueService(IMediatRHandler bus, IProdutoRepository produtoRepository) =>
+        (_bus, _produtoRepository) = (bus, produtoRepository);
 
     public async Task<bool> DebitarEstoque(Guid produtoId, int quantidade)
     {
         var produto = await _produtoRepository.ObterPorId(produtoId);
 
-        if (produto == null) return false;
+        if (produto is null) return false;
 
         if (!produto.PossuiEstoque(quantidade)) return false;
 
@@ -39,7 +36,7 @@ public class EstoqueService : IEstoqueService
     {
         var produto = await _produtoRepository.ObterPorId(produtoId);
 
-        if (produto == null) return false;
+        if (produto is null) return false;
 
         produto.ReporEstoque(quantidade);
 

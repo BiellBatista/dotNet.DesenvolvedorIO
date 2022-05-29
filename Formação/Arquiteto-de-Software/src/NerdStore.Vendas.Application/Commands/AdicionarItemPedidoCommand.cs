@@ -3,7 +3,7 @@ using NerdStore.Core.Messages;
 
 namespace NerdStore.Vendas.Application.Commands;
 
-public class AdicionarItemPedidoCommand : Command
+public sealed class AdicionarItemPedidoCommand : Command
 {
     public Guid ClienteId { get; private set; }
     public Guid ProdutoId { get; private set; }
@@ -11,23 +11,18 @@ public class AdicionarItemPedidoCommand : Command
     public int Quantidade { get; private set; }
     public decimal ValorUnitario { get; private set; }
 
-    public AdicionarItemPedidoCommand(Guid clienteId, Guid produtoId, string nome, int quantidade, decimal valorUnitario)
-    {
-        ClienteId = clienteId;
-        ProdutoId = produtoId;
-        Nome = nome;
-        Quantidade = quantidade;
-        ValorUnitario = valorUnitario;
-    }
+    public AdicionarItemPedidoCommand(Guid clienteId, Guid produtoId, string nome, int quantidade, decimal valorUnitario) =>
+        (ClienteId, ProdutoId, Nome, Quantidade, ValorUnitario) = (clienteId, produtoId, nome, quantidade, valorUnitario);
 
     public override bool IsValid()
     {
         ValidationResult = new AdicionarItemPedidoValidation().Validate(this);
+
         return ValidationResult.IsValid;
     }
 }
 
-public class AdicionarItemPedidoValidation : AbstractValidator<AdicionarItemPedidoCommand>
+public sealed class AdicionarItemPedidoValidation : AbstractValidator<AdicionarItemPedidoCommand>
 {
     public AdicionarItemPedidoValidation()
     {

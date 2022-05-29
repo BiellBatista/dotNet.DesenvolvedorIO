@@ -4,7 +4,7 @@ using NerdStore.Catalogo.Domain;
 
 namespace NerdStore.Catalogo.Application.AutoMapper;
 
-public class DomainToViewModelMappingProfile : Profile
+public sealed class DomainToViewModelMappingProfile : Profile
 {
     public DomainToViewModelMappingProfile()
     {

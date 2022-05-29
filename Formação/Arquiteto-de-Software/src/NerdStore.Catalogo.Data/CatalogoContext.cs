@@ -4,7 +4,7 @@ using NerdStore.Core.Data;
 
 namespace NerdStore.Catalogo.Data;
 
-public class CatalogoContext : DbContext, IUnitOfWork
+public sealed class CatalogoContext : DbContext, IUnitOfWork
 {
     public CatalogoContext(DbContextOptions<CatalogoContext> options)
         : base(options) { }
@@ -26,7 +26,7 @@ public class CatalogoContext : DbContext, IUnitOfWork
 
     public async Task<bool> Commit()
     {
-        foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
+        foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") is not null))
         {
             if (entry.State == EntityState.Added) entry.Property("DataCadastro").CurrentValue = DateTime.Now;
 

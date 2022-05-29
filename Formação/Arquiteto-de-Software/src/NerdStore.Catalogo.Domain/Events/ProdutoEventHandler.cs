@@ -6,10 +6,7 @@ public class ProdutoEventHandler : INotificationHandler<ProdutoAbaixoEstoqueEven
 {
     private readonly IProdutoRepository _produtoRepository;
 
-    public ProdutoEventHandler(IProdutoRepository produtoRepository)
-    {
-        _produtoRepository = produtoRepository;
-    }
+    public ProdutoEventHandler(IProdutoRepository produtoRepository) => (_produtoRepository) = (produtoRepository);
 
     public async Task Handle(ProdutoAbaixoEstoqueEvent mensagem, CancellationToken cancellationToken)
     {

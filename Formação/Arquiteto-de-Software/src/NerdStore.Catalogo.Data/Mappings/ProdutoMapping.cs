@@ -4,7 +4,7 @@ using NerdStore.Catalogo.Domain;
 
 namespace NerdStore.Catalogo.Data.Mappings;
 
-public class ProdutoMapping : IEntityTypeConfiguration<Produto>
+public sealed class ProdutoMapping : IEntityTypeConfiguration<Produto>
 {
     public void Configure(EntityTypeBuilder<Produto> builder)
     {

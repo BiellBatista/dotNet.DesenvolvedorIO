@@ -77,3 +77,4 @@ Modelagem de Domínios Ricos
 		01 - Setup do BC de Vendas
 		02 - Objetos de Domínio
 		03 - Command e Command Handler
+		04 - Manipulando comandos na prática

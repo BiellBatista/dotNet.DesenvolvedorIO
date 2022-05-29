@@ -3,7 +3,7 @@
 namespace NerdStore.Core.DomainObjects;
 
 //Pode ter o nome de AssertionConcern
-public class Validacoes
+public sealed class Validacoes
 {
     public static void ValidarSeIgual(object object1, object object2, string mensagem)
     {

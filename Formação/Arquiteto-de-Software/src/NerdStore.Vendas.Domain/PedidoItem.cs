@@ -24,28 +24,13 @@ public class PedidoItem : Entity
     protected PedidoItem()
     { }
 
-    internal void AssociarPedido(Guid pedidoId)
-    {
-        PedidoId = pedidoId;
-    }
+    internal void AssociarPedido(Guid pedidoId) => PedidoId = pedidoId;
 
-    public decimal CalcularValor()
-    {
-        return Quantidade * ValorUnitario;
-    }
+    public decimal CalcularValor() => Quantidade * ValorUnitario;
 
-    internal void AdicionarUnidades(int unidades)
-    {
-        Quantidade += unidades;
-    }
+    internal void AdicionarUnidades(int unidades) => Quantidade += unidades;
 
-    internal void AtualizarUnidades(int unidades)
-    {
-        Quantidade = unidades;
-    }
+    internal void AtualizarUnidades(int unidades) => Quantidade = unidades;
 
-    public override bool IsValid()
-    {
-        return true;
-    }
+    public override bool IsValid() => true;
 }

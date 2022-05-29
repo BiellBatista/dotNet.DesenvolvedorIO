@@ -14,16 +14,9 @@ public class Categoria : Entity
     {
     }
 
-    public Categoria(string nome, int codigo)
-    {
-        Nome = nome;
-        Codigo = codigo;
-    }
+    public Categoria(string nome, int codigo) => (Nome, Codigo) = (nome, codigo);
 
-    public override string ToString()
-    {
-        return $"{Nome} - {Codigo}";
-    }
+    public override string ToString() => $"{Nome} - {Codigo}";
 
     public void Validar()
     {

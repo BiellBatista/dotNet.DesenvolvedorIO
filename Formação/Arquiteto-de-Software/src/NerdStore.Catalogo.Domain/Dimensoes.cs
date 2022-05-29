@@ -3,7 +3,7 @@
 namespace NerdStore.Catalogo.Domain;
 
 //Objeto de valor
-public class Dimensoes
+public sealed class Dimensoes
 {
     public decimal Altura { get; private set; }
     public decimal Largura { get; private set; }
@@ -20,13 +20,7 @@ public class Dimensoes
         Profundidade = profundidade;
     }
 
-    public string DescricaoFormatada()
-    {
-        return $"LxAxP: {Largura} x {Altura} x {Profundidade}";
-    }
+    public string DescricaoFormatada() => $"LxAxP: {Largura} x {Altura} x {Profundidade}";
 
-    public override string ToString()
-    {
-        return DescricaoFormatada();
-    }
+    public override string ToString() => DescricaoFormatada();
 }
