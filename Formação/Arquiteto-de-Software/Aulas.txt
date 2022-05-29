@@ -75,3 +75,4 @@ Modelagem de Domínios Ricos
 		05 - Utilização de Sagas
 	09 - Mão na Massa - CQRS
 		01 - Setup do BC de Vendas
+		02 - Objetos de Domínio
