@@ -4,7 +4,7 @@ using Xunit;
 
 namespace NerdStore.Catalogo.Domain.Tests;
 
-internal sealed class ProdutoTests
+public sealed class ProdutoTests
 {
     [Fact]
     public void Produto_Validar_ValidacoesDevemRetornarExceptions()
