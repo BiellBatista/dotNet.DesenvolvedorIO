@@ -55,6 +55,7 @@
     <h1>Vitrine de Produtos</h1>
     <br />
     <div class="row">
+        <!-- BEGIN PRODUCTS -->
         @{
             foreach (var produto in Model.OrderBy(p=>p.CategoriaId))
             {
@@ -74,5 +75,7 @@
             </div>
             }
         }
+
+        <!-- END PRODUCTS -->
     </div>
 </div>

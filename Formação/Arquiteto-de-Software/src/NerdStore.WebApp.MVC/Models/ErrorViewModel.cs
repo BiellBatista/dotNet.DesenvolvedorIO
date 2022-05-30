@@ -1,9 +1,8 @@
-namespace NerdStore.WebApp.MVC.Models
-{
-    public class ErrorViewModel
-    {
-        public string? RequestId { get; set; }
+namespace NerdStore.WebApp.MVC.Models;
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-    }
+internal sealed class ErrorViewModel
+{
+    public string RequestId { get; set; }
+
+    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }

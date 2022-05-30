@@ -78,3 +78,4 @@ Modelagem de Domínios Ricos
 		02 - Objetos de Domínio
 		03 - Command e Command Handler
 		04 - Manipulando comandos na prática
+		05 - Tratamento de notificações

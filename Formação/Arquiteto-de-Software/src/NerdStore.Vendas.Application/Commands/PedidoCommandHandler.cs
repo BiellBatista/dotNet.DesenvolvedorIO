@@ -1,6 +1,7 @@
 ﻿using MediatR;
-using NerdStore.Core.Communication;
+using NerdStore.Core.Communication.MediatR;
 using NerdStore.Core.Messages;
+using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Vendas.Domain;
 
 namespace NerdStore.Vendas.Application.Commands;
@@ -37,13 +38,8 @@ public sealed class PedidoCommandHandler :
             pedido.AdicionarItem(pedidoItem);
 
             if (pedidoItemExistente)
-            {
                 _pedidoRepository.AtualizarItem(pedido.PedidoItems.FirstOrDefault(p => p.ProdutoId == pedidoItem.ProdutoId));
-            }
-            else
-            {
-                _pedidoRepository.AdicionarItem(pedidoItem);
-            }
+            else _pedidoRepository.AdicionarItem(pedidoItem);
         }
 
         pedido.AdicionarEvento(new PedidoItemAdicionadoEvent(pedido.ClienteId, pedido.Id, message.ProdutoId, message.Nome, message.ValorUnitario, message.Quantidade));
@@ -56,9 +52,7 @@ public sealed class PedidoCommandHandler :
         if (message.IsValid()) return true;
 
         foreach (var error in message.ValidationResult.Errors)
-        {
             _mediatoRHandler.PublicarNotificacao(new DomainNotification(message.MessageType, error.ErrorMessage));
-        }
 
         return false;
     }
