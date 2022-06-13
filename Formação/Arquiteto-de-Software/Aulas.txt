@@ -80,3 +80,4 @@ Modelagem de Domínios Ricos
 		04 - Manipulando comandos na prática
 		05 - Tratamento de notificações
 		06 - Event e Event Handler
+		07 - Implementando Queries (Query Stack)
