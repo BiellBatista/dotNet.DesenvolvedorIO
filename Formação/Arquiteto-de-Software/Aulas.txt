@@ -79,3 +79,4 @@ Modelagem de Domínios Ricos
 		03 - Command e Command Handler
 		04 - Manipulando comandos na prática
 		05 - Tratamento de notificações
+		06 - Event e Event Handler

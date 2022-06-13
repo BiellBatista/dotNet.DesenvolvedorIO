@@ -4,10 +4,11 @@ namespace NerdStore.Core.DomainObjects;
 
 public abstract class Entity
 {
-    public Guid Id { get; set; }
-
     private List<Event> _notificacoes;
+
     public IReadOnlyCollection<Event> Notificacoes => _notificacoes?.AsReadOnly();
+
+    public Guid Id { get; set; }
 
     protected Entity() => Id = Guid.NewGuid();
 
