@@ -5,6 +5,7 @@ using NerdStore.Core.Communication.MediatR;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Vendas.Application.Commands;
 using NerdStore.Vendas.Application.Queries;
+using NerdStore.Vendas.Application.Queries.ViewModels;
 
 namespace NerdStore.WebApp.MVC.Controllers;
 
@@ -99,5 +100,25 @@ internal sealed class CarrinhoController : ControllerBase
         if (OperacaoValida()) return RedirectToAction("Index");
 
         return View("Index", await _pedidoQueries.ObterCarrinhoCliente(ClienteId));
+    }
+
+    [Route("resumo-da-compra")]
+    public async Task<IActionResult> ResumoDaCompra() => View(await _pedidoQueries.ObterCarrinhoCliente(ClienteId));
+
+    [HttpPost]
+    [Route("iniciar-pedido")]
+    public async Task<IActionResult> IniciarPedido(CarrinhoViewModel carrinhoViewModel)
+    {
+        var carrinho = await _pedidoQueries.ObterCarrinhoCliente(ClienteId);
+
+        var command = new IniciarPedidoCommand(carrinho.PedidoId, ClienteId, carrinho.ValorTotal,
+            carrinhoViewModel.Pagamento.NomeCartao, carrinhoViewModel.Pagamento.NumeroCartao,
+            carrinhoViewModel.Pagamento.ExpiracaoCartao, carrinhoViewModel.Pagamento.CvvCartao);
+
+        await _mediatRHandler.EnviarComando(command);
+
+        if (OperacaoValida()) return RedirectToAction("Index", "Pedido");
+
+        return View("ResumoDaCompra", await _pedidoQueries.ObterCarrinhoCliente(ClienteId));
     }
 }

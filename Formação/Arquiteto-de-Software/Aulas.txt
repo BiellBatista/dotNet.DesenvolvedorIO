@@ -82,3 +82,4 @@ Modelagem de Domínios Ricos
 		06 - Event e Event Handler
 		07 - Implementando Queries (Query Stack)
 		08 - Adicionando novas funcionalidades com comandos
+		09 - Integração de BC's - Processamento do pedido

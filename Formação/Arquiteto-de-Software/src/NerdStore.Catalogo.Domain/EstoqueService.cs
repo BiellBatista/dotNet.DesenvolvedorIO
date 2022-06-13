@@ -30,8 +30,7 @@ public sealed class EstoqueService : IEstoqueService
 
     public async Task<bool> DebitarListaProdutosPedido(ListaProdutosPedido lista)
     {
-        foreach (var item in lista.Itens)
-            if (!await DebitarItemEstoque(item.Id, item.Quantidade)) return false;
+        foreach (var item in lista.Itens) if (!await DebitarItemEstoque(item.Id, item.Quantidade)) return false;
 
         return await _produtoRepository.UnitOfWork.Commit();
     }
@@ -40,7 +39,7 @@ public sealed class EstoqueService : IEstoqueService
     {
         var produto = await _produtoRepository.ObterPorId(produtoId);
 
-        if (produto == null) return false;
+        if (produto is null) return false;
 
         if (!produto.PossuiEstoque(quantidade))
         {
@@ -62,8 +61,7 @@ public sealed class EstoqueService : IEstoqueService
 
     public async Task<bool> ReporListaProdutosPedido(ListaProdutosPedido lista)
     {
-        foreach (var item in lista.Itens)
-            await ReporItemEstoque(item.Id, item.Quantidade);
+        foreach (var item in lista.Itens) await ReporItemEstoque(item.Id, item.Quantidade);
 
         return await _produtoRepository.UnitOfWork.Commit();
     }
