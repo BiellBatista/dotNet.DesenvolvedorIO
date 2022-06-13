@@ -83,3 +83,4 @@ Modelagem de Domínios Ricos
 		07 - Implementando Queries (Query Stack)
 		08 - Adicionando novas funcionalidades com comandos
 		09 - Integração de BC's - Processamento do pedido
+		10 - Integração de BC's - Pagamento
