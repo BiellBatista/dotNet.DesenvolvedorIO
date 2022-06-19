@@ -1,6 +1,6 @@
-FormaÁ„o Arquiteto de Software
+Forma√ß√£o Arquiteto de Software
 	Fundamentos de Arquitetura de Software
-		01 - IntroduÁ„o
+		01 - Introdu√ß√£o
 		02 - Perfis de Arquitetos
 		03 - Perfil do Arquiteto de Software
 		04 - OOP
@@ -10,13 +10,15 @@ FormaÁ„o Arquiteto de Software
 		08 - Design Patterns
 		09 - Arquitetura de Software
 		10 - Encerramento
-	Modelagem de DomÌnios Ricos
-		01 - IntroduÁ„o
-		02 - Vis„o Geral do DDD
-		03 - Linguagem UbÌqua
-		04 - Modelagem EstratÈgica
-		05 - Estilos e Padrıes Arquiteturais
-		06 - Modelagem T·tica
-		07 - M„o na massa - Modelagem T·tica
+	Modelagem de Dom√≠nios Ricos
+		01 - Introdu√ß√£o
+		02 - Vis√£o Geral do DDD
+		03 - Linguagem Ub√≠qua
+		04 - Modelagem Estrat√©gica
+		05 - Estilos e Padr√µes Arquiteturais
+		06 - Modelagem T√°tica
+		07 - M√£o na massa - Modelagem T√°tica
 		08 - CQRS
-		09 - M„o na Massa - CQRS
+		09 - M√£o na Massa - CQRS
+		10 - Event Sourcing
+		11 - Encerramento
