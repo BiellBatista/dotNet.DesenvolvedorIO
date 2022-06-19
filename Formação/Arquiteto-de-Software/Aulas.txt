@@ -91,3 +91,4 @@ Modelagem de Domínios Ricos
 		01 - Sobre o que é?
 		02 - Fatores essenciais
 		03 - [Mão na massa] - Setup do ES no projeto
+		04 - [Mão na massa] - Persistindo eventos
