@@ -3,7 +3,7 @@ using NerdStore.Catalogo.Application.Services;
 
 namespace NerdStore.WebApp.MVC.Controllers;
 
-internal sealed class VitrineController : Controller
+public sealed class VitrineController : Controller
 {
     private readonly IProdutoAppService _produtoAppService;
 

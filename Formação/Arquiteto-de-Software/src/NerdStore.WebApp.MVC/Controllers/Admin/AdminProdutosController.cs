@@ -4,7 +4,7 @@ using NerdStore.Catalogo.Application.ViewModels;
 
 namespace NerdStore.WebApp.MVC.Controllers.Admin;
 
-internal sealed class AdminProdutosController : Controller
+public sealed class AdminProdutosController : Controller
 {
     private readonly IProdutoAppService _produtoAppService;
 

@@ -5,7 +5,7 @@ using NerdStore.Core.Messages.CommonMessages.Notifications;
 
 namespace NerdStore.WebApp.MVC.Controllers;
 
-internal abstract class ControllerBase : Controller
+public abstract class ControllerBase : Controller
 {
     private readonly IMediatRHandler _mediatRHandler;
 

@@ -9,7 +9,7 @@ using NerdStore.Vendas.Application.Queries.ViewModels;
 
 namespace NerdStore.WebApp.MVC.Controllers;
 
-internal sealed class CarrinhoController : ControllerBase
+public sealed class CarrinhoController : ControllerBase
 {
     private readonly IMediatRHandler _mediatRHandler;
     private readonly IPedidoQueries _pedidoQueries;

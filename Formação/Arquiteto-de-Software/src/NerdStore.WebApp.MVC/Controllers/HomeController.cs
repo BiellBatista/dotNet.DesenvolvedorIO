@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace NerdStore.WebApp.MVC.Controllers;
 
-internal sealed class HomeController : Controller
+public sealed class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 

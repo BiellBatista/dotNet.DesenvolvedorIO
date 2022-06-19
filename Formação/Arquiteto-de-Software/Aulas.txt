@@ -92,3 +92,7 @@ Modelagem de Domínios Ricos
 		02 - Fatores essenciais
 		03 - [Mão na massa] - Setup do ES no projeto
 		04 - [Mão na massa] - Persistindo eventos
+		05 - [Mão na massa] - Finalizando a implementação do ES
+	11 - Encerramento
+		01 - Palavras finais
+		02 - Zerei a vida ou só comecei?
