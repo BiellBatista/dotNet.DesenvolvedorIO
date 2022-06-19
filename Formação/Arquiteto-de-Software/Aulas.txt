@@ -89,3 +89,4 @@ Modelagem de Domínios Ricos
 		13 - Trabalhando com Sagas, Service Bus e Filas MSMQ
 	10 - Event Sourcing
 		01 - Sobre o que é?
+		02 - Fatores essenciais
