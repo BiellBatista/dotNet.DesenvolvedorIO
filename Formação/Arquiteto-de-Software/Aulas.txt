@@ -84,3 +84,4 @@ Modelagem de Domínios Ricos
 		08 - Adicionando novas funcionalidades com comandos
 		09 - Integração de BC's - Processamento do pedido
 		10 - Integração de BC's - Pagamento
+		11 - Integração de BC's - Finalização do pedido
