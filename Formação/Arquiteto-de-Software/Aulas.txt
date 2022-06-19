@@ -85,3 +85,4 @@ Modelagem de Domínios Ricos
 		09 - Integração de BC's - Processamento do pedido
 		10 - Integração de BC's - Pagamento
 		11 - Integração de BC's - Finalização do pedido
+		12 - Visão geral da implementação
