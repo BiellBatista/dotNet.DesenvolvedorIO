@@ -18,6 +18,8 @@ Fundamentos de Arquitetura de Software
 		01 - Pilares da Programação Orientada a Objetos
 		02 - Estado e Comportamento
 		03 - Herança
+		04 - Abstração
+		05 - Polimorfismo
 	05 - SOLID
 	06 - Dependency Injection
 	07 - Clean Code
