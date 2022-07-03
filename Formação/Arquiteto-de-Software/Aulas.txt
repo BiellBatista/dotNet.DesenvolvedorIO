@@ -1,8 +1,23 @@
 Fundamentos de Arquitetura de Software
 	01 - Introdução
+		01 - Apresentação
+		02 - O que é arquitetura?
 	02 - Perfis de Arquitetos
+		01 - Perfis de arquitetos
+		02 - Arquiteto Corporativo
+		03 - Arquiteto de Negócios
+		04 - Arquiteto de Soluções
+		05 - Arquiteto de Software
+		06 - Outros perfis de arquitetos
 	03 - Perfil do Arquiteto de Software
+		01 - Responsabilidades
+		02 - Requisitos Técnicos
+		03 - Requisitos Pessoais
+		04 - Mitos sobre o Arquiteto de Software
 	04 - OOP
+		01 - Pilares da Programação Orientada a Objetos
+		02 - Estado e Comportamento
+		03 - Herança
 	05 - SOLID
 	06 - Dependency Injection
 	07 - Clean Code
