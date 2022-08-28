@@ -20,7 +20,11 @@ Fundamentos de Arquitetura de Software
 		03 - Herança
 		04 - Abstração
 		05 - Polimorfismo
+		06 - Encapsulamento
+		07 - Interface x Implementação
+		08 - Herança x Composição
 	05 - SOLID
+		01 - Princípios SOLID
 	06 - Dependency Injection
 	07 - Clean Code
 	08 - Design Patterns
