@@ -29,6 +29,7 @@ Fundamentos de Arquitetura de Software
 		03 - OCP - Open Closed Principle
 		04 - LSP - Liskov Substitution Principle
 		05 - ISP - Interface Segregation Principle
+		06 - DIP - Dependency Inversion Principle
 	06 - Dependency Injection
 	07 - Clean Code
 	08 - Design Patterns

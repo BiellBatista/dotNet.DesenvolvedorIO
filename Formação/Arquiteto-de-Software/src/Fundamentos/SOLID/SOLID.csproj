@@ -5,10 +5,8 @@
 		<RootNamespace>SOLID</RootNamespace>
 		<TargetFramework>net6.0</TargetFramework>
 	</PropertyGroup>
+
 	<ItemGroup>
-	  <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="5-DIP\02-Solucao\" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
 	</ItemGroup>
 </Project>
