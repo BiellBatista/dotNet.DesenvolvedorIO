@@ -1,6 +1,6 @@
-﻿namespace SOLID._2_OCP._02_SolucaoExtensionMethods
+﻿namespace SOLID._2_OCP._02_SolucaoExtensionMethods;
 
-    internal static class DebitoContaPoupanca
+internal static class DebitoContaPoupanca
 {
     public static string DebitarContaPoupanca(this DebitoConta debitoConta)
     {
