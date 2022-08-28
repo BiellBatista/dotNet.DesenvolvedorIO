@@ -1,4 +1,7 @@
-﻿namespace SOLID;
+﻿using SOLID._2_OCP._02_SolucaoExtensionMethods;
+using SOLID._3_LSP._01_Violacao;
+
+namespace SOLID;
 
 internal class Program
 {

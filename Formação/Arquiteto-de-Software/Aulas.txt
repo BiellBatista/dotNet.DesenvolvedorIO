@@ -27,6 +27,7 @@ Fundamentos de Arquitetura de Software
 		01 - Princípios SOLID
 		02 - SRP - Single Responsability Principle
 		03 - OCP – Open Closed Principle
+		04 - LSP- Liskov Substitution Principle
 	06 - Dependency Injection
 	07 - Clean Code
 	08 - Design Patterns
