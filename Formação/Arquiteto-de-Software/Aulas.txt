@@ -25,6 +25,7 @@ Fundamentos de Arquitetura de Software
 		08 - Herança x Composição
 	05 - SOLID
 		01 - Princípios SOLID
+		02 - SRP - Single Responsability Principle
 	06 - Dependency Injection
 	07 - Clean Code
 	08 - Design Patterns
