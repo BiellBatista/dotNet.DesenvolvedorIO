@@ -31,6 +31,7 @@ Fundamentos de Arquitetura de Software
 		05 - ISP - Interface Segregation Principle
 		06 - DIP - Dependency Inversion Principle
 	06 - Dependency Injection
+		01 - Exemplo do "mundo real"
 	07 - Clean Code
 	08 - Design Patterns
 	09 - Arquitetura de Software
