@@ -32,6 +32,11 @@ Fundamentos de Arquitetura de Software
 		06 - DIP - Dependency Inversion Principle
 	06 - Dependency Injection
 		01 - Exemplo do "mundo real"
+		02 - Tipos de ciclo de vida
+		03 - Registro de generics
+		04 - Property Injection
+		05 - Service Locator "Pattern"
+		06 - N Classes : 1 Interface
 	07 - Clean Code
 	08 - Design Patterns
 	09 - Arquitetura de Software
