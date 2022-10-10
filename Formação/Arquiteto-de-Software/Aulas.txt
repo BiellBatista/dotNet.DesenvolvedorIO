@@ -38,6 +38,13 @@ Fundamentos de Arquitetura de Software
 		05 - Service Locator "Pattern"
 		06 - N Classes : 1 Interface
 	07 - Clean Code
+		01 - Apresentação
+		02 - O que é um código limpo?
+		03 - Desculpas e responsabilidades
+		04 - Como medir um bom código?
+		05 - Boas práticas
+		06 - Devo comentar meu código?
+		07 - Tratamento de erros
 	08 - Design Patterns
 	09 - Arquitetura de Software
 	10 - Encerramento
