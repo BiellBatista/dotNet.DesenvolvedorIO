@@ -3,11 +3,11 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>NerdStore.Core</RootNamespace>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="FluentValidation" Version="11.0.3" />
+	  <PackageReference Include="FluentValidation" Version="11.5.1" />
 	  <PackageReference Include="MediatR" Version="10.0.1" />
 	</ItemGroup>
 </Project>

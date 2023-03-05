@@ -46,6 +46,9 @@ Fundamentos de Arquitetura de Software
 		06 - Devo comentar meu código?
 		07 - Tratamento de erros
 	08 - Design Patterns
+		01 - Apresentação
+		02 - Creational Patterns
+		03 - Abstract Factory
 	09 - Arquitetura de Software
 	10 - Encerramento
 Modelagem de Domínios Ricos

@@ -3,7 +3,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>NerdStore.Catalogo.Application</RootNamespace>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 	</PropertyGroup>
 	
 	<ItemGroup>
@@ -12,6 +12,6 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-	  <PackageReference Include="AutoMapper" Version="11.0.1" />
+	  <PackageReference Include="AutoMapper" Version="12.0.1" />
 	</ItemGroup>
 </Project>
