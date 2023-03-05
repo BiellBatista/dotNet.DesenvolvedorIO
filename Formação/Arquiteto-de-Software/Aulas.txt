@@ -61,6 +61,9 @@ Fundamentos de Arquitetura de Software
 		13 - Observer
 		14 - Evite o Patternite
 	09 - Arquitetura de Software
+		01 - Estilos Arquiteturais
+		02 - Padrões Arquiteturais
+		03 - 3-Tier Architecture
 	10 - Encerramento
 Modelagem de Domínios Ricos
 	01 - Introdução
