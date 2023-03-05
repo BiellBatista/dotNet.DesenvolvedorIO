@@ -57,6 +57,7 @@ Fundamentos de Arquitetura de Software
 		09 - Composite
 		10 - Behavorial Patterns
 		11 - Command
+		12 - Strategy
 	09 - Arquitetura de Software
 	10 - Encerramento
 Modelagem de Domínios Ricos
