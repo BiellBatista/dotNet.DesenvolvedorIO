@@ -50,6 +50,7 @@ Fundamentos de Arquitetura de Software
 		02 - Creational Patterns
 		03 - Abstract Factory
 		04 - Factory Method
+		05 - Singleton
 	09 - Arquitetura de Software
 	10 - Encerramento
 Modelagem de Domínios Ricos

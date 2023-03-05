@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns._01_Creational._01_Factory_Method;
+﻿namespace DesignPatterns._01_Creational._02_Factory_Method;
 
 public class ExecucaoFactoryMethod
 {
