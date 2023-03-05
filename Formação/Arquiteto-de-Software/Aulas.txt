@@ -51,6 +51,8 @@ Fundamentos de Arquitetura de Software
 		03 - Abstract Factory
 		04 - Factory Method
 		05 - Singleton
+		06 - Structural Patterns
+		07 - Adapter
 	09 - Arquitetura de Software
 	10 - Encerramento
 Modelagem de Domínios Ricos
