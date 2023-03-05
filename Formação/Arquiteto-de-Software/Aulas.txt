@@ -53,6 +53,8 @@ Fundamentos de Arquitetura de Software
 		05 - Singleton
 		06 - Structural Patterns
 		07 - Adapter
+		08 - Facade
+		09 - Composite
 	09 - Arquitetura de Software
 	10 - Encerramento
 Modelagem de Domínios Ricos
