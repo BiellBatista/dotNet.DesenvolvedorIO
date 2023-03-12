@@ -64,7 +64,20 @@ Fundamentos de Arquitetura de Software
 		01 - Estilos Arquiteturais
 		02 - Padrões Arquiteturais
 		03 - 3-Tier Architecture
+		04 - Onion Architecture
+		05 - Hexagonal Architecture "Ports & Adapters"
+		06 - CQRS - Command Query Responsibility Segregation
+		07 - Event Sourcing
+		08 - DDD - Domain-Driven Design
+		09 - Arquiteturas Evolutivas
+		10 - Sempre considere a complexidade!
+		11 - Conway's Law
+		12 - Agilidade e o Manifesto Ágil
+		13 - DevOps
+		14 - Principios DRY, KISS e YAGNI
+		15 - Leituras recomendadas
 	10 - Encerramento
+		01 - Palavras finais
 Modelagem de Domínios Ricos
 	01 - Introdução
 		01 - Apresentação
